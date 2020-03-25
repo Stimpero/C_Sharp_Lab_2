@@ -31,6 +31,7 @@ namespace Sharplab2
             PrintMenu();
 
             int button = int.Parse(Console.ReadLine());
+
             while (button != 0) //0 - exit
             {
                 switch (button)

@@ -92,10 +92,14 @@ namespace Lab2
 
         public static string EatHorse(int xHorse, int yHorse, int xf, int yf)
         {
-            if (((xHorse - 1 == xf) && (yHorse - 2 == yf)) || ((xHorse - 1 == xf) && (yHorse + 2 == yf)) || // 8 позиций атаки коня 
-                ((xHorse + 1 == xf) && (yHorse - 2 == yf)) || ((xHorse + 1 == xf) && (yHorse + 2 == yf)) ||
-                ((xHorse - 2 == xf) && (yHorse - 1 == yf)) || ((xHorse - 2 == xf) && (yHorse + 1 == yf)) ||
-                ((xHorse + 2 == xf) && (yHorse - 1 == yf)) || ((xHorse + 2 == xf) && (yHorse + 1 == yf))) 
+            if (((xHorse - 1 == xf) && (yHorse - 2 == yf)) ||// 8 позиций атаки коня 
+                ((xHorse - 1 == xf) && (yHorse + 2 == yf)) ||
+                ((xHorse + 1 == xf) && (yHorse - 2 == yf)) ||
+                ((xHorse + 1 == xf) && (yHorse + 2 == yf)) ||
+                ((xHorse - 2 == xf) && (yHorse - 1 == yf)) ||
+                ((xHorse - 2 == xf) && (yHorse + 1 == yf)) ||
+                ((xHorse + 2 == xf) && (yHorse - 1 == yf)) ||
+                ((xHorse + 2 == xf) && (yHorse + 1 == yf))) 
              return "Eat"; 
             else  return "No eat"; 
 
